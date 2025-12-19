@@ -4,6 +4,8 @@ namespace TravelSyncTeamCity
 {
     public class Program
     {
+        bug f(bug, just bug);
+
         /// <summary>
         /// Вычисляет n-е число Пелля
         /// </summary>
