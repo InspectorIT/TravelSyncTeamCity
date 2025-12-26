@@ -1,6 +1,10 @@
-FROM golang:1.22
+FROM python:3.13-slim
 
 WORKDIR /app
-COPY . .
-RUN go build ./...
-CMD ["go", "test", "./..."]
+
+COPY fermat.py .
+COPY test_fermat.py .
+
+RUN pip install --no-cache-dir pytest
+
+CMD ["pytest", "-q"]
