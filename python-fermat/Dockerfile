@@ -7,4 +7,4 @@ COPY test_fermat.py .
 
 RUN pip install --no-cache-dir pytest
 
-CMD ["pytest", "-q"]
+CMD ["pytest"]
