@@ -7,4 +7,4 @@ def test_n_4():
     assert fermat_holds(4)
 
 def test_n_2():
-    assert not fermat_holds(2)
+    assert not fermat_holds(2);kjfjdfjhgjkh;g;'ks;l
